@@ -1,6 +1,6 @@
 # wg-wistia-uploader
 
-A directive for easily uploading files to wistia using Blueimp File Upload plugin.
+A directive for easily uploading files to wistia using Blueimp File Upload plugin. Live project can be seen [here](https://wagoid.github.io/wg-wistia-uploader/).
 
 # Dependencies
 
