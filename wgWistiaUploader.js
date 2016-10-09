@@ -63,7 +63,7 @@ function controller($scope, $sce) {
 			$scope.$apply(function () {
 				$scope.videoHeight = data.result.thumbnail.height;
 				$scope.videoId = data.result.hashed_id;
-				$scope.videoUrl = $sce.trustAsResourceUrl('http://fast.wistia.net/embed/iframe/' + $scope.videoId);
+				$scope.videoUrl = $sce.trustAsResourceUrl('https://fast.wistia.net/embed/iframe/' + $scope.videoId);
 			});
 		}
 	};
