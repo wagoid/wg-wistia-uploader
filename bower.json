@@ -1,0 +1,24 @@
+{
+  "name": "wg-wistia-uploader",
+  "authors": [
+    "wagoid <w.rsantos@outlook.com>"
+  ],
+  "description": "",
+  "main": "wgWistiaUploader.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "blueimp-file-upload": "jquery-file-upload#^9.12.5",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "jquery-ui": "^1.12.1"
+  }
+}

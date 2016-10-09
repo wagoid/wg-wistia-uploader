@@ -1,0 +1,19 @@
+<div>
+    <label class="btn btn-primary" style="margin: 10px 0px">
+        Select a video to upload <input type="file" class="hidden" id="{{inputId}}" name="file" data-url="https://upload.wistia.com">
+    </label>
+
+    <p ng-show="!videoUrl" ng-bind="uploadStatus" ></p>
+
+    <div class="progress">
+        <div
+            class="progress-bar progress-bar-success"
+            role="progressbar"
+            ng-style="{ 'width': uploadProgress + '%' }"
+            >
+        </div>
+    </div>
+
+    <iframe ng-src="{{ videoUrl }}" allowtransparency="true" frameborder="0" scrolling="no" name="wistia_embed" class="wistia_embed"
+        width="100%" height="{{ videoHeight }}" ng-show="!!videoUrl"></iframe>
+</div>
